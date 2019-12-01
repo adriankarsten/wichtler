@@ -1,0 +1,123 @@
+.whole-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+
+@media ( max-width: 600px ) {
+    .whole-container { flex-wrap: wrap; }
+ }
+
+.form-container {
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 1 500px;
+}
+
+.results-container {
+    opacity: 0.9;
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    flex: 1 1 500px;
+}
+
+.results-content {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    padding-top: 10px;
+}
+
+.result-container {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    margin: 10px;
+    padding: 10px;
+    border-style: ridge;
+    border-color: #eeeeee;
+    border-radius: 5px;
+    width: 150px;
+}
+
+.result-title {
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.result-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.result-content-title {
+    font-size: 14px;
+}
+
+.names-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.name-col {
+    min-width: 100px;
+    margin-right: 15px;
+}
+
+.partner-col {
+    min-width: 100px;
+    margin-right: 15px;
+}
+
+.add-col {
+    min-width: 100px;
+    margin-right: 15px;
+    padding-bottom: 10px;
+}
+
+.checkbox-col {
+    min-width: 100px;
+    padding-bottom: 10px;
+}
+
+.delete-col {
+    min-width: 20px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    width: 30%;
+    margin-right: 15px;
+    padding-bottom: 10px;
+}
+
+.duplicates-row {
+    display: flex;
+    flex-direction: row;
+    min-width: 230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    flex-wrap: wrap;
+}
+
+.clickable-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.result-combination {
+    display: flex;
+    flex-direction: column;
+}
